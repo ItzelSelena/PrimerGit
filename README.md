@@ -1,110 +1,322 @@
-Políticas de Seguridad
-1.1 OBJETIVOS
-Dar la información necesaria a los usuarios, y empleados, de las normas que deben cumplir y utilizar para proteger el hardware y software, así como la información que es procesada y almacenada en estos. Planear, organizar, dirigir y controlar las actividades para mantener y garantizar la integridad física de los recursos informáticos, así como resguardar la información del cliente.
- Los objetivos que se desean alcanzar luego de implantar las Políticas de Seguridad son los siguientes:
-Establecer un esquema de seguridad con perfecta claridad y transparencia bajo la responsabilidad de los administradores en el control de riesgo.
-Compromiso de todo el personal de la empresa Lycaon con el proceso de seguridad, agilizando la aplicación de los controles.
-
-1.2 POLITICAS DE SEGURIDAD
-Toda la información de la empresa deberá invariablemente ser operada a través de un mismo tipo de sistema manejador de base de datos para beneficiarse de los mecanismos de integridad, seguridad y recuperación de información en caso de presentarse alguna falla.
-El acceso a los sistemas de información, deberá contar con los privilegios o niveles de seguridad de acceso suficientes para garantizar la seguridad total de la información de la empresa. Los niveles de seguridad de acceso deberán controlarse por un administrador único y poder ser manipulado por software.
-Se deben delimitar las responsabilidades en cuanto a quién está autorizado a consultar y/o modificar en cada caso la información, tomando las medidas de seguridad pertinentes.
-Los datos de los sistemas de información, deben ser respaldados de acuerdo a la frecuencia de actualización de sus datos, guardando respaldos históricos periódicamente. Es indispensable llevar una bitácora oficial de los respaldos realizados y deberán guardarse en un lugar de acceso restringido con condiciones ambientales suficientes para garantizar su conservación o bien, en servidores de respaldo externo (Google Drive) o en medios de almacenamiento alternos.
-
-2 POLITICAS DE SEGURIDAD FISICA
-       2.1 Respaldos
-Las Bases de Datos de la empresa serán respaldadas periódicamente en forma automática y manual, según los procedimientos generados para tal efecto.
-Los demás respaldos deberán ser almacenados en un lugar seguro y distante del sitio de trabajo.
-Los Administradores no podrán remover del sistema ninguna información de cuentas individuales, a menos que la información sea de carácter ilegal.
+Proyecto:
+SS Williams
+                    	Cliente: 
+Neuropsicólogo Carlos Alberto Serrano
 
 
-
-3.1 BASES DE DATOS
-El Administrador de la Base de Datos no deberá eliminar ninguna información del sistema, a menos que la información esté dañada o ponga en peligro el buen funcionamiento del sistema.
-En caso de olvido de contraseña de un usuario, será necesario que se presente con el Administrador de la Base de Datos para reasignarle su contraseña.
-
-4.1 RESPONSABILIDADES PERSONALES
-Si un usuario tiene sospechas de que su acceso autorizado (identificador de usuario y contraseña) está siendo utilizado por otra persona, debe proceder al cambio de su contraseña e informar a su jefe inmediato y éste reportar al responsable de la administración de la red.
-La contraseña no debe hacer referencia a ningún concepto, objeto o idea reconocible. Por tanto, se debe evitar utilizar en las contraseñas fechas significativas, días de la semana, meses del año, nombres de personas, teléfonos.
-
-5.1 ACTUALIZACIONES DE LA POLÍTICA DE SEGURIDAD
-Debido a la propia evolución de la tecnología y las amenazas de seguridad, y a las nuevas aportaciones legales en la materia, Las Empresas se reservan el derecho a modificar esta Política cuando sea necesario. Los cambios realizados en esta Política serán divulgados a todos los usuarios de la empresa Lycaon. Es responsabilidad de cada uno de los usuarios la lectura y conocimiento de la Política de Seguridad más reciente.
-
-
-
-
-
- Procedimiento de seguridad
-
-
-La implementación de las políticas de seguridad requiere generalmente la realización de un conjunto de acciones para garantizar su cumplimiento. La descripción de esta secuencia de  acciones constituye un procedimiento de seguridad. Los procedimientos al igual que las medidas, se clasifican en procedimientos de detección y recuperación.
-La implementación
-Política: “El acceso a los sistemas de información, deberá contar con los privilegios o niveles de seguridad de acceso suficientes para garantizar la seguridad total de la información de la empresa. Los niveles de seguridad de acceso deberán controlarse por un administrador único y poder ser manipulado por software”.
-
-Procedimientos:
-1. Delimitar privilegios del sistema S.S Williams de acuerdo a aptitudes y competencias del personal de Lycaon.
-2. No poner como contraseña fechas de nacimiento o información que pueda ser de índole personal.
-
-Política: “Las Bases de Datos de la empresa serán respaldadas periódicamente en forma automática y manual, según los procedimientos generados para tal efecto.”
-Procedimientos:
-1. Realizar la salva de información que se almacena en la base de datos del sistema en memorias USB o medios externos (drive), alterándolos diariamente, una hora antes de concluir el trabajo.
-2. Verificar integridad de la información guardada.
-
-Política: “El Administrador de la Base de Datos no deberá eliminar ninguna información del sistema, a menos que la información esté dañada o ponga en peligro el buen funcionamiento del sistema.”
-1. En caso de existir información dañada el encargado de informar de tal falla será quién avisará al resto de los integrantes del equipo y tomar la mejor decisión para dicha falla, así sea la solución eliminar la información errónea.
-2. Una vez tomada la decisión se harán nuevas medidas preventivas para evitar un fallo parecido.
-
-Política: “Toda la información de la empresa deberá invariablemente ser operada a través de un mismo tipo de sistema manejador de base de datos para beneficiarse de los mecanismos de integridad, seguridad y recuperación de información en caso de presentarse alguna falla.”
+Introducción:
  
-1. Cuando un usuario o un administrador de servicios detecte una anomalía en el funcionamiento de un equipo o           servicio deberá comunicarlo al responsable del área de fallo del software de Lycaon, el cual verificará el evento y si   corresponde lo comunicará al encargado del área de dicho fallo y al Responsable de Seguridad Informática usando el  teléfono de Reporte de Incidente que se encuentra en la aplicación del software de Lycaon. 
-2. El Responsable de Seguridad Informática notificará a los Responsables de los sistemas involucrados y encabezará un equipo de respuesta al incidente integrado por las personas que considere apropiadas. 
+El Neuropsicólogo Carlos Alberto Serrano Juárez, quién está realizando sus estudios para obtener el grado de Doctor, expresó que es de su interés demostrar que a través del uso de las tecnologías de la información se puede mejorar el proceso de atención de pacientes con Síndrome de Williams, describiendo los siguientes problemas:
+ 
+Las actividades de atención para pacientes con Síndrome de Williams son demasiado caras, por lo que su seguimiento suele ser costoso.
+Las actividades de estimulación así también, son de origen español y americano.
+No existe un seguimiento de atención donde se observe el trabajo del paciente en sus respectivos espacios. (hogar)
+
+
+Justificación:
+ 
+Con el uso de las tecnologías de la información y de la aplicación web, el  Psicólogo, padre y/o tutor, podrá contar con información oportuna y confiable del seguimiento del paciente con Síndrome de Williams, así como realizar las citas. El psicólogo tendrá la oportunidad de tener el expediente de su paciente actualizado.
+ 
+El paciente tendrá acceso a las actividades de atención  visoespacial en sincronía o asincrónica  con el psicólogo y facilitará la comunicación y ayudará a mejorar al paciente. 
 
 
 
 
 
-A continuación se van a detallar las posibles soluciones que debe implantar Lycaon para conseguir establecer un nivel de seguridad de su información adecuado para evitar pérdidas y daños de activos.
-
-1.1 Plan de seguridad
-A la hora de realizar el análisis de la empresa, se han detectado ciertas vulnerabilidades graves como por ejemplo que no exista un replicado de la información, que no existan políticas de acceso a la información o la más importante, que los responsables de la empresa no tengan conciencia de la importancia de dotar a su empresa de unas adecuadas medidas de seguridad para proteger la información de la misma. Para conseguir reducir el riesgo de la empresa se van a detallar las medidas que se deberán emplear para conseguir que consiga ponerse al día en la seguridad de su información y elementos informáticos. Dentro de las medidas a emplear para eliminar las vulnerabilidades y dotar a la empresa de una seguridad adecuada, se pueden distinguir varios tipos: 
-- Medidas preventivas: Medidas que se deberán implantar en la empresa para prevenir la posible explotación de una vulnerabilidad por parte de una amenaza.
- - Medidas correctoras: Medidas que se deberán implantar en la empresa para corregir problemas o fallos debidos a amenazas que se han materializado. 
-- Riesgos asumibles: Pueden existir vulnerabilidades de la empresa que no sean sensibles a que un riesgo las explote, por lo que esa vulnerabilidad no es necesario que sea tenida en cuenta a la hora de establecer las medidas de seguridad.
-
-1.2 Medidas aplicadas a problemas de Hardware
- En el análisis realizado dentro de la empresa se han detectado varios fallos en el correcto mantenimiento y seguridad del equipamiento Hardware disponible, sobre todo debido a la ausencia de un sistema de almacenamiento centralizado, lo que pone en grave riesgo la integridad de la información almacenada dentro de dicho Hardware. Algunas medidas aplicables para evitar pérdidas: 
-Medidas preventivas a adoptar dentro de la empresa: 
-- Instalación de un servidor de almacenamiento centralizado donde se almacene toda la información generada dentro de la empresa y que garantice un acceso adecuado, y seguro, a la misma cuando sea necesario.
- - Disponer de copias de respaldo almacenadas en servidores exteriores a la empresa para prevenir posibles fallos de Hardware. 
-- Tener contratado un buen servicio técnico que asegure una rápida reparación y puesta en marcha de los equipos si se produce un fallo. 
-Medidas correctoras a adoptar dentro de la empresa: 
-- Tener contratado un buen servicio técnico que asegure una rápida reparación y puesta en marcha de los equipos si se produce un fallo.
-- Restauración de copias en el caso de haberse producido una pérdida de datos. 
-Riesgos asumibles en la empresa:
-- Fallo en alguna estación PC o portátil.
+Descripción de Requerimientos:
+ 
+Desarrollar una aplicación web para pacientes con Síndrome de Williams que mejore sus procesos de atención y habilidades visoespaciales, obteniendo información más exacta y confiable. Se deben manejar 4 tipos de usuarios, siendo estos el Administrador, quien se encargará de la gestión global del sistema, refiriéndose así al registro, la consulta y la eliminación de la sesión de los psicólogos para su correcto funcionamiento; los Psicólogos, que se encargaran de hacer sus actividades de trabajo correspondientes, registrar a sus pacientes, sus citas e información de estas, solo teniendo acceso a su sesión correspondiente, siendo registrados por el administrador; niños con el síndrome de Williams, que se puedan registrar e interactuar con la pagina; y por último los padres o tutores de éstos, quienes podrán ver los progresos de los niños. El ambiente del sistema deberá contar con colores propios de la Universidad Nacional Autónoma de México (dorado y azul), logotipos de dicha escuela y de la especialidad de ciencias humanas. El sistema debe ser interactivo para el uso de los niños, que contenga una serie de juegos específicos que les ayude en su desarrollo.
+ 
+ 
 
 
 
 
-1.3 Medidas aplicadas a problemas de las copias de seguridad
 
- La política de copias de seguridad es sin duda el talón de Aquiles de la empresa Lycaon, pues dentro de la misma no se dispone de ningún sistema que garantice que se realicen copias de los datos críticos, ni que estas copias estén a salvo y replicadas en algún sistema de almacenamiento exterior a la empresa. En este punto, también se detecta una falta de concienciación de los responsables de la empresa de lo importante que resulta tener la información replicada. 
-Medidas preventivas a adoptar dentro de la empresa: 
-- Instalación de un servidor centralizado de copias de seguridad en el cual se almacenen periódicamente copias de los datos actualizados. 
-- Realización periódica de copias de seguridad de los datos, en especial de los datos críticos, generados en la empresa.
- - Realización periódica de copias localizadas en servidores externos a la empresa para garantizar la disponibilidad de los datos ante cualquier contratiempo en la empresa. 
-Medidas correctoras a adoptar dentro de la empresa:
- - Restauración de copias en el caso de haberse producido una pérdida de datos.
 
-1.4 Medidas aplicadas a problemas con la información
-La información es uno de los activos más importantes con los que cuenta la empresa y por tanto uno de los más críticos y que más habría que proteger. 
-Medidas preventivas a adoptar dentro de la empresa: 
-- Disponibilidad de copias de seguridad de los ficheros más importantes en diferentes soportes.
-- Instalación de bases de datos centralizadas donde se almacenen todos los datos importantes generados por la empresa para facilitar el almacenamiento, accesibilidad y seguridad de los datos. 
-- Establecimiento de procedimientos de seguridad que establezcan las acciones a realizar en caso de pérdidas de información. 
-- Establecimiento de planes de contingencia para salvaguardar la información y evitar daños o pérdidas de la misma.
- Medidas correctoras a adoptar dentro de la empresa:
-- Seguimiento de los procedimientos de seguridad establecidos para cada caso. 
-- Restauración de copias en el caso de haberse producido una pérdida de datos. 
-- Seguimiento del plan de contingencia especificado para cada caso.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Requerimientos Funcionales:
+ 
+
+1.- Registro e inicio de sesión de usuarios:
+
+Inicio de sesión del administrador responsable del sistema para acceso y control   de la información con los siguientes datos:
+Nombre de usuario.
+Contraseña.
+
+Registro de psicólogos, hecho por el administrador del sistema, con los siguientes datos:
+Nombre.
+Cedula Profesional.
+Contraseña única.
+Horario
+Días de la semana (lunes a sábado)
+Horario
+
+
+Después del registro, el psicólogo podrá iniciar su sesión con su cedula profesional y su contraseña correspondiente.
+
+Registro de pacientes a atender realizado por el psicólogo, que deberá contener la siguiente información:
+Nombre. (apellido paterno.-materno-nombres)
+Sexo.
+Femenino
+Masculino
+Edad.
+Fecha de nacimiento. (dia-mes-año
+Lugar de nacimiento.
+Lateralidad.
+Diestro
+
+
+Escolaridad.
+Jardín de niños
+Preescolar
+Primaria
+Secundaria
+Clave de paciente.
+RFC 
+Contraseña única.
+
+Después del registro, el paciente podrá iniciar su sesión con su clave de paciente y su contraseña correspondiente.
+
+
+Registro de padres de familia o tutores de los pacientes, que será realizado por el psiquiatra en turno y llenar los campos del siguiente formulario:
+Nombre
+Domicilio (Calle, No. Interior, No. Exterior, Colonia, C.P., Delegación. Ciudad).
+Ocupación.
+Escolaridad.
+Teléfono (Casa, Oficina). 
+
+
+2.- Citas:
+
+ Registro de citas de pacientes realizado por el psicólogo con los siguientes datos:
+Fecha del registro ( generada por el sistema)
+Nombre del psicólogo
+Dia, fecha y hora de la cita.
+Nombre del paciente.
+
+ Historial de citas, que cada psicólogo podrá consultar desde su sesión en el sistema.
+
+
+3.- Pacientes:
+
+      Expediente del paciente, que se conformará de la siguiente información: 
+Datos personales del paciente.
+Datos de comunicación con padre de familia o tutor.
+Diagnóstico del paciente.
+Medicamentos.
+Estudios realizados. 
+Citas solicitadas.
+Citas realizadas.
+Citas canceladas.
+Será editado únicamente por el psicólogo que atiende a determinado paciente.
+
+Actividades visoespaciales realizadas por el paciente.
+(Las Actividades son para 6to semestre)
+Resultados obtenidos por periodos que podrá visualizar el psicólogo encargado de dicho paciente. 
+
+
+4.- Actividades de estimulación:
+
+Actividades de atención por tema realizadas por el paciente desde el  sistema.
+¿Cuales son los temas?
+Actividades visoespaciales por tema para mejorar la calidad de tratamiento.
+¿Cuales son las actividades?
+
+
+5.- Información:
+
+El sistema tendrá que tener la siguiente información distribuida por la página:
+      ¿Qué es el Síndrome de Williams?.
+      Síntomas.
+      Diferencias con otras enfermedades.
+      Información para Padres, tutores y/o profesores.
+
+
+6.- Contacto:
+
+El sistema mostrará la siguiente información de contacto:
+Teléfonos.
+Correo electrónico.
+Requerimientos No-Funcionales:
+ 
+
+1.- Seguridad: 
+
+Se creará una base de datos en MySQL para poder guardar toda la información y tener mayor seguridad con la encriptación de datos de los usuarios y psicólogos. 
+
+2.- Interfaces: 
+
+Todas las ventanas de cualquier tipo de usuario tendrán una interfaz definida con los colores representativos de la UNAM, y deberá ser  fácil de manejar por todos los usuarios.
+
+3.- Validación: 
+
+Todos los campos deben estar validados minuciosamente para que el sistema funcione de la manera adecuada y no presente errores en la base de datos.
+
+4.- Tiempo de Acción: 
+
+El sistema debe ser veloz cuando se pide cierta información, por ello, debe estar lo más comprimido posible y así no utilizar demasiada memoria que pueda retrasar su tiempo de acción.
+
+5.- Almacenamiento:
+
+La capacidad del almacenamiento del sistema será dependiendo de cuánto espacio en memoria se tenga en la máquina donde se instalará.
+
+ 
+
+
+ 
+Requerimientos de Hardware y Software:
+        
+En el área de Hardware se necesita un equipo funcional capaz de soportar la plataforma con un rendimiento óptimo y para que funcione de esa manera deberá contar con las siguientes características:
+
+Memoria RAM de 2GB.
+
+Procesador de 4 núcleos a 1.50 GHz y tarjeta gráfica de 520 MB.
+Teclado, mouse optico y bocinas
+
+En cuanto al software, el sistema deberá contar con los siguientes requerimientos para su funcionamiento óptimo:
+
+El sistema operativo de este equipo tendrá que ser Windows 7 o posterior.    (32 bits y 64 bits)
+
+SQL Server 2008 R2 (32 bits y 64 bits) Standard Edition.
+
+Java SE 1.5 o superior.
+
+Navegador Web. (Chrome, Internet Explorer, Firefox)
+
+
+
+
+
+
+
+
+ 
+
+Evolución del Sistema
+ 
+Mediante actualizaciones programadas, se implementará al sistema una serie de actividades que servirán para el tratamiento de los pacientes con síndrome de Williams y edición de datos sobre nuevos descubrimientos o datos innovadores para el tratamiento de este problema, de igual manera se optimizará y adaptará el sistema para otros sistemas operativos (Linux, OS, Mejora de rendimiento en Windows 10) siendo pues, una aplicación en constante renovación con seguimiento y mantenimiento de aproximadamente un año de duración. 
+
+
+
+
+
+Delimitación del proyecto
+
+Proyecto: SSWilliams
+
+
+Cliente:
+Neuropsicólogo Carlos Alberto Serrano Juárez 
+Facultad de Estudios Superiores Iztacala
+Universidad Autónoma de México
+Consultorio: Mar Tirreno No. 111-504
+México, Distrito Federal
+Horario de atención: lunes y viernes de 16:00 a 20:00 horas	  
+Teléfono celular: 55 10 15 72 98
+
+
+Planteamiento del problema: 
+
+El Neuropsicologo Serrano Juárez, quién está realizando sus estudios para obtener el grado de Doctor, expresó que es de su interés demostrar que a través del uso de las tecnologías de la información se puede mejorar el proceso de atención de pacientes con Síndrome de Williams, describiendo los siguientes problemas:
+
+
+Las actividades de atención para pacientes con Síndrome de Williams son demasiados caros, por lo que su seguimiento suele ser costoso.
+
+ Las actividades de estimulación así también, son de origen español y americano.
+
+No existen un seguimiento de atención donde se observe el trabajo del paciente en sus respectivos espacios (hogar)
+
+
+
+
+Objetivo general: 
+
+Desarrollar una aplicación web para pacientes con Síndrome de Williams que mejore sus procesos de atención y habilidades visoespaciales, obteniendo información más exacta y confiable.
+
+
+Objetivos específicos:
+
+
+Generar un espacio en el internet de información que genere conocimiento sobre el Síndrome de Williams.
+
+Integrar un sistema de administración  a pacientes con Síndrome de Williams que lleve el registro, seguimiento y control de citas, atención y resultados alcanzados.
+
+Implementar las actividades de atención y estimulación para pacientes con el Síndrome de Williams a la aplicación web, , fortaleciendo su proceso de aprendizaje
+
+
+Usuarios:
+
+Administrador del Sistema
+
+Psicólogos
+
+Personas, en especial niños que tengan Síndrome de Williams.
+
+Padres de familia o tutores
+
+
+Alcance:
+
+Módulo 1. Registro de usuarios
+Registro del administrador responsable del sistema para acceso y control de la información
+Registro de psicólogos y pacientes que atiende.
+Registro de horarios de atención del psicólogo.
+
+
+Módulo 2. Citas
+Registro de citas por psicólogo
+Registro de citas por paciente
+Historial de citas por psicólogo y paciente
+
+Módulo 3. Pacientes
+Expediente del paciente
+Datos personales del paciente
+Datos de comunicación con del padre de familia o tutor
+Diagnóstico del paciente
+Citas solicitadas
+Citas realizadas
+Citas canceladas
+Actividades de atención realizadas por el paciente
+Actividades visoespaciales realizadas por el paciente
+Resultados obtenidos por periodos
+
+Módulo 4.  Actividades de estimulación
+Actividades de atención por tema
+Actividades visoespaciales por tema
+
+Módulo 5. Información
+¿Qué es el Síndrome de Williams?
+Síntomas
+Diferencias con otras enfermedades
+Información para Padres, tutores y/o profesores
+
+Módulo 6. Contacto
+Espacio para registro de personas interesadas
+Teléfonos
+Correo electrónico
+
+
+Justificación:
+
+Con el uso de las tecnologías de la información y de la aplicación web, el  Psicólogo y padre o tutor, podrá contar con información oportuna y confiable del seguimiento del paciente con Síndrome de Williams, así como realizar las citas.
+
+El psicólogo tendrá la oportunidad de tener el expediente de su paciente actualizado.
+
+El paciente tendrá acceso a las actividades de atención y visoespacial en sincronía o asincrónica  con el psicólogo.
+
+
+
 
